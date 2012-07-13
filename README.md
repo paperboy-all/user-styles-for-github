@@ -14,7 +14,7 @@ GitHub の見た目を変更するためのユーザスタイルです。ペパ�
 
 ## 使い方
 
-Stylish の場合は、以下のページからインストールできます。
+以下のページからインストールできます。
 
  * [GitHub Style for paperboy-30days](http://userstyles.org/styles/69187/github-style-for-paperboy-30days)
  * [GitHub Style for paperboy-heteml](http://userstyles.org/styles/69188/github-style-for-paperboy-heteml)
