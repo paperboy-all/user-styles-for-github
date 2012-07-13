@@ -17,6 +17,7 @@ GitHub の見た目を変更するためのユーザスタイルです。ペパ�
 以下のページからインストールできます。
 
  * [GitHub Style for paperboy-30days](http://userstyles.org/styles/69187/github-style-for-paperboy-30days)
+ * [GitHub Style for paperboy-calamel](http://userstyles.org/styles/69242/github-style-for-paperboy-calamel)
  * [GitHub Style for paperboy-heteml](http://userstyles.org/styles/69188/github-style-for-paperboy-heteml)
  * [GitHub Style for paperboy-sqale](http://userstyles.org/styles/69189/github-style-for-paperboy-sqale)
 
