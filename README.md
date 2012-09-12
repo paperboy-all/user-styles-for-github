@@ -20,6 +20,8 @@ GitHub の見た目を変更するためのユーザスタイルです。ペパ�
  * [GitHub Style for paperboy-calamel](http://userstyles.org/styles/69242/github-style-for-paperboy-calamel)
  * [GitHub Style for paperboy-heteml](http://userstyles.org/styles/69188/github-style-for-paperboy-heteml)
  * [GitHub Style for paperboy-sqale](http://userstyles.org/styles/69189/github-style-for-paperboy-sqale)
+ * [GitHub Style for paperboy-petit](http://userstyles.org/styles/74494/github-style-for-paperboy-petit)
+ * [GitHub Style for paperboy-goope](http://userstyles.org/styles/74495/github-style-for-paperboy-goope)
 
 Stylist の場合は、以下のように設定します。
 
