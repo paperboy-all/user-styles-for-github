@@ -1,0 +1,48 @@
+
+.github-logo-4x-hover {
+    opacity:0;
+}
+
+#header {
+  background-image: url(http://www.petit.cc/img/common/background.jpg);
+}
+
+#header a {
+text-shadow: none;
+color: #222;
+}
+
+.pagehead > ul.tabs {
+  background-image: url(http://www.petit.cc/img/common/background.jpg);
+}
+
+.pagehead > ul.tabs li a {
+  text-shadow: none;
+  color: #fff;
+  /* border-bottom: 2px solid #222  ;*/
+  border-bottom: none;
+}
+
+.pagehead > ul.tabs li a:hover{
+  font-weight: bold;
+  color: #222;
+  background: none;
+  border-bottom: none;
+ 
+}
+
+.pagehead > ul.tabs li a.selected, .pagehead > ul.tabs li a.selected:hover {
+  background-image: url(http://www.petit.cc/img/common/background.jpg);
+  border-bottom: none;
+}
+
+#wiki-wrapper #head {
+  border-bottom: 10px solid #4D5687;
+}
+
+.markdown-body h1 {
+  background-color: #99AED3;
+  padding-left: 1px;
+  border: 1px solid #4D5687;
+  border-radius: 3px;
+}
