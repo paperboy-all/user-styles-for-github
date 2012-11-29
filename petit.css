@@ -1,29 +1,38 @@
+.notification-indicator.contextually-unread {
+  opacity: 0.5;
+}
 
 .github-logo-4x-hover {
-    opacity:0;
+  opacity:0;
 }
 
-#header {
+.header {
   background-image: url(http://www.petit.cc/img/common/background.jpg);
 }
 
-#header a {
-text-shadow: none;
-color: #222;
+.header a {
+  text-shadow: none;
+  color: #222;
+  text-shadow: 0px 0px 5px #fff;
 }
 
-.pagehead > ul.tabs {
+.top-nav a:hover {
+  -webkit-transform: rotate(720deg) scale(1.5);
+  -moz-transform: rotate(720deg) scale(1.5);
+}
+
+.pagehead .container > ul.tabs {
   background-image: url(http://www.petit.cc/img/common/background.jpg);
 }
 
-.pagehead > ul.tabs li a {
+.pagehead .container > ul.tabs li a {
   text-shadow: none;
   color: #fff;
-  /* border-bottom: 2px solid #222  ;*/
   border-bottom: none;
+  text-shadow: 0px 0px 5px #000;
 }
 
-.pagehead > ul.tabs li a:hover{
+.pagehead .container > ul.tabs li a:hover{
   font-weight: bold;
   color: #222;
   background: none;
@@ -31,9 +40,11 @@ color: #222;
  
 }
 
-.pagehead > ul.tabs li a.selected, .pagehead > ul.tabs li a.selected:hover {
+.pagehead .container > ul.tabs li a.selected,
+.pagehead .container > ul.tabs li a.selected:hover {
   background-image: url(http://www.petit.cc/img/common/background.jpg);
   border-bottom: none;
+  text-shadow: 0px 0px 5px #fff;
 }
 
 #wiki-wrapper #head {
@@ -43,6 +54,6 @@ color: #222;
 .markdown-body h1 {
   background-color: #99AED3;
   padding-left: 1px;
-  border: 1px solid #4D5687;
+  border: 3px solid #4D5687;
   border-radius: 3px;
 }
