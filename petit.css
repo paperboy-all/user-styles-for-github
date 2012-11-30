@@ -37,8 +37,11 @@
   color: #222;
   background: none;
   border-bottom: none;
- 
 }
+
+.pagehead .container > ul.tabs li a .counter {
+      text-shadow: 0px 0px 0px #fff;
+  }
 
 .pagehead .container > ul.tabs li a.selected,
 .pagehead .container > ul.tabs li a.selected:hover {
