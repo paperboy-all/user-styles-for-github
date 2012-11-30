@@ -2,23 +2,21 @@
         opacity:0;
 }
 
-#header {
+.header {
         background: #f6f3f2; /* Old browsers */
         background: -moz-linear-gradient(top,  #f6f3f2 1%, #e4e4d2 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f6f3f2), color-stop(100%,#e4e4d2)); /* Chrome,Safari4+ */
         background: -webkit-linear-gradient(top,  #f6f3f2 1%,#e4e4d2 100%); /* Chrome10+,Safari5.1+ */
         background: -o-linear-gradient(top,  #f6f3f2 1%,#e4e4d2 100%); /* Opera 11.10+ */
         background: -ms-linear-gradient(top,  #f6f3f2 1%,#e4e4d2 100%); /* IE10+ */
-/*position: fixed;
- * width:100%;*/
 }
 
-#header a {
+.header a {
         text-shadow: none;
         color: #313131;
 }
 
-.pagehead > ul.tabs {
+.pagehead .container > ul.tabs {
         background: #f6f3f2; /* Old browsers */
         background: -moz-linear-gradient(top,  #f6f3f2 1%, #e4e4d2 100%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f6f3f2), color-stop(100%,#e4e4d2)); /* Chrome,Safari4+ */
@@ -27,14 +25,14 @@
         background: -ms-linear-gradient(top,  #f6f3f2 1%,#e4e4d2 100%); /* IE10+ */
 }
 
-.pagehead > ul.tabs li a {
+.pagehead .container > ul.tabs li a {
         text-shadow: none;
         color: #999;
         border-bottom: 2px solid #fff779;
 }
 
 /* hover */
-.pagehead > ul.tabs li a:hover{
+.pagehead .container > ul.tabs li a:hover{
         background: #e4e4d2; /* Old browsers */
         background: -moz-linear-gradient(top,  #e4e4d2 1%, #f6f3f2 99%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e4e4d2), color-stop(99%,#f6f3f2)); /* Chrome,Safari4+ */
@@ -45,7 +43,8 @@
         color: #323232;
 }
 
-.pagehead > ul.tabs li a.selected, .pagehead > ul.tabs li a.selected:hover {
+.pagehead .container > ul.tabs li a.selected, 
+.pagehead .container > ul.tabs li a.selected:hover {
         background: #f6f3f2; /* Old browsers */
         background: -moz-linear-gradient(top,  #f6f3f2 1%, #e4e4d2 99%); /* FF3.6+ */
         background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#f6f3f2), color-stop(99%,#e4e4d2)); /* Chrome,Safari4+ */
@@ -55,7 +54,8 @@
 
 }
 
-.pagehead > ul.tabs li a.selected, .pagehead > ul.tabs li a.selected:hover {
+.pagehead .container > ul.tabs li a.selected, 
+.pagehead .container > ul.tabs li a.selected:hover {
         color:#043040;
         border-bottom: 2px solid #fb968a;
 }
@@ -65,5 +65,4 @@
   padding-left: 1px;
   border: 2px solid #E4E3D2 !important;
   border-radius: 3px;
-  
 }
